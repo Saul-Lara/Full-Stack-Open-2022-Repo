@@ -15,14 +15,14 @@ In this part, we will familiarize ourselves with the practicalities of taking th
 #### Exercise 0.4
 Diagram depicting the situation where the user creates a new note on the page when writing something into the text field and clicking the submit button.
 
-![Exercise 0.4](0.4 New note.png?raw=true "Exercise 0.4")
+![Exercise 0.4](0.4%20New%20note.png?raw=true "Exercise 0.4")
 
 #### Exercise 0.5
 Diagram depicting the situation where the user goes to the single page app version of the notes app.
 
-![Exercise 0.5](0.5 SPA.png?raw=true "Exercise 0.5")
+![Exercise 0.5](0.5%20SPA.png?raw=true "Exercise 0.5")
 
 #### Exercise 0.6
 Diagram depicting the situation where the user creates a new note using the single page version of the app.
 
-![Exercise 0.6](0.6 New Note SPA.png?raw=true "Exercise 0.6")
+![Exercise 0.6](0.6%20New%20Note%20SPA.png?raw=true "Exercise 0.6")
