@@ -7,9 +7,9 @@ In this part, we will familiarize ourselves with the React-library, which we wil
 
 - [X] 1.1: course information, step1
 - [X] 1.2: course information, step2
-- [ ] 1.3:
-- [ ] 1.4:
-- [ ] 1.5:
+- [X] 1.3: course information, step3
+- [X] 1.4: course information, step4
+- [X] 1.5: course information, step5
 - [ ] 1.6:
 - [ ] 1.7:
 - [ ] 1.8:
