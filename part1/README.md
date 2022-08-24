@@ -22,5 +22,5 @@ In this part, we will familiarize ourselves with the React-library, which we wil
 - [X] 1.11: unicafe, step6
 - [X] 1.12: anecdotes, step1
 - [X] 1.13: anecdotes, step2
-- [ ] 1.14:
+- [X] 1.14: anecdotes, step3
 
