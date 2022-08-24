@@ -13,11 +13,17 @@ const Statistics = ({ data }) => {
 
   let totalVotes = good + neutral + bad
 
-  let averageValue = totalVotes > 0 ?
-    `${((good * 1) + (neutral * 0) + (bad * -1)) / (totalVotes)}` : 'I need more votes to calculate'
+  if (totalVotes <= 0) {
+    return (
+      <div>
+        No feedback given
+      </div>
+    )
+  }
 
-  let positivePercentage = totalVotes > 0 ?
-    `${(good * 100) / (totalVotes)}%` : 'I need more votes to calculate'
+  let averageValue = `${((good * 1) + (neutral * 0) + (bad * -1)) / (totalVotes)}`
+
+  let positivePercentage = `${(good * 100) / (totalVotes)}%`
 
   return (
     <div>
