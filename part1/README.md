@@ -16,7 +16,7 @@ In this part, we will familiarize ourselves with the React-library, which we wil
 ### Part 1d
 - [X] 1.6: unicafe, step1
 - [X] 1.7: unicafe, step2
-- [ ] 1.8:
+- [X] 1.8: unicafe, step3
 - [ ] 1.9:
 - [ ] 1.10:
 - [ ] 1.11:
