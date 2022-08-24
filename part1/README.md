@@ -19,7 +19,7 @@ In this part, we will familiarize ourselves with the React-library, which we wil
 - [X] 1.8: unicafe, step3
 - [X] 1.9: unicafe, step4
 - [X] 1.10: unicafe, step5
-- [ ] 1.11:
+- [X] 1.11: unicafe, step6
 - [ ] 1.12:
 - [ ] 1.13:
 - [ ] 1.14:

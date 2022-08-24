@@ -6,7 +6,14 @@ const Title = ({ title }) => <h2>{title}</h2>
 
 const Button = ({ onClick, text }) => <button onClick={onClick}>{text}</button>
 
-const StatisticLine = ({ text, value }) => <div>{text}: {value}</div>
+const StatisticLine = ({ text, value }) => {
+  return (
+    <tr>
+      <td>{text}</td>
+      <td>{value}</td>
+    </tr>
+  )
+}
 
 const Statistics = ({ data }) => {
   let good = data.good
@@ -28,14 +35,16 @@ const Statistics = ({ data }) => {
   let positivePercentage = `${(good * 100) / (totalVotes)}%`
 
   return (
-    <div>
-      <StatisticLine text="good" value={good} />
-      <StatisticLine text="neutral" value={neutral} />
-      <StatisticLine text="bad" value={bad} />
-      <StatisticLine text="all" value={totalVotes} />
-      <StatisticLine text="average" value={averageValue} />
-      <StatisticLine text="positive" value={positivePercentage} />
-    </div>
+    <table>
+      <tbody>
+        <StatisticLine text="good" value={good} />
+        <StatisticLine text="neutral" value={neutral} />
+        <StatisticLine text="bad" value={bad} />
+        <StatisticLine text="all" value={totalVotes} />
+        <StatisticLine text="average" value={averageValue} />
+        <StatisticLine text="positive" value={positivePercentage} />
+      </tbody>
+    </table>
   )
 
 }
