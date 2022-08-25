@@ -24,3 +24,13 @@ In this part, we will familiarize ourselves with the React-library, which we wil
 - [X] 1.13: anecdotes, step2
 - [X] 1.14: anecdotes, step3
 
+## Screenshots of web applications
+
+### Course Information:
+![Course Info Screenshot](../screenshots/part01_screenshot_courseinfo.png)
+
+### Unicafe:
+![Unicafe Screenshot](../screenshots/part01_screenshot_unicafe.gif)
+
+### Anecdotes:
+![Anecdotes Screenshot](../screenshots/part01_screenshot_anecdotes.gif)
