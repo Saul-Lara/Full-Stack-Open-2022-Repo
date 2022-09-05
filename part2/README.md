@@ -7,6 +7,6 @@ In this part, we'll take a look at how to render a data collection, how a user c
 ### Part 2a
 - [X] 2.1: Course information, step 6
 - [X] 2.2: course information, step 7
-- [ ] 2.3: course information, step 8
+- [X] 2.3: course information, step 8
 - [ ] 2.4: course information, step 9
 - [ ] 2.5: Separate module
