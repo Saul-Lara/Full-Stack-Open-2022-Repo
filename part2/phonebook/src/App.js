@@ -1,5 +1,7 @@
 import { useState } from 'react'
 
+var isEqual = require('lodash.isequal')
+
 const Person = ({ person }) => <li>{person.name}</li>
 
 const App = () => {
@@ -13,6 +15,11 @@ const App = () => {
     const personObject = {
       name: newName
     }
+
+    if (persons.some((element) => isEqual(element, personObject))) {
+      return alert(`${newName} is already added to phonebook`)
+    }
+
     setPersons(persons.concat(personObject))
     setNewName('')
   }

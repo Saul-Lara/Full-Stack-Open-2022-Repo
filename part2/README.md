@@ -13,7 +13,7 @@ In this part, we'll take a look at how to render a data collection, how a user c
 
 ### Part 2b
 - [X] 2.6: The Phonebook, step 1
-- [ ] 2.7: 
+- [X] 2.7: The Phonebook, step 2
 - [ ] 2.8: 
 - [ ] 2.9: 
 - [ ] 2.10: 
